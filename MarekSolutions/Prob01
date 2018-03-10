@@ -1,0 +1,28 @@
+import java.io.*;
+
+public class Prob01{
+      public static void main(String[] args) {
+        try {
+            FileReader reader = new FileReader("Prob01.in.txt");
+            BufferedReader bufferedReader = new BufferedReader(reader);
+ 
+          String firstLine = bufferedReader.readLine();
+          int T = Integer.parseInt(firstLine);
+          String currentLine;
+          
+          
+          for(int i=0;i<T;i++){
+            currentLine = bufferedReader.readLine();
+            System.out.println(currentLine);
+            System.out.println(currentLine);
+          }
+            /*while ((line = bufferedReader.readLine()) != null) {
+                System.out.println(line);
+            }*/
+            reader.close();
+ 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
