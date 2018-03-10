@@ -1,2 +1,2 @@
-# CodeQuestPractice2017
+# CodeQuestPractice
 Practice for Lockheed Martin's CodeQuest competition.
