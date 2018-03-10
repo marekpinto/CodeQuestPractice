@@ -1,2 +1,2 @@
 # CodeQuestPractice2017
-Practice for CodeQuest by solving the 2017 problems.
+Practice for Lockheed Martin's CodeQuest competition.
