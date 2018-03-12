@@ -1,0 +1,26 @@
+import java.io.*;
+
+public class Prob03{
+  public static void main(String[] args){
+    try{
+    FileReader fr = new FileReader("Prob03.in.txt");
+    BufferedReader br = new BufferedReader(fr);
+    int T = Integer.parseInt(br.readLine());
+    String testCase;
+    int added;
+    int multiplied;
+    for(int i=0;i<T;i++){
+      testCase = br.readLine();
+      String[] array = testCase.split("\\s");
+      added = Integer.parseInt(array[0]) + Integer.parseInt(array[1]);
+      multiplied = Integer.parseInt(array[0]) + Integer.parseInt(array[1]);
+      System.out.println("Numbers Added: " + added + " " + "Numbers Multiplied: " + multiplied);
+    }
+    fr.close();
+    
+  }
+    catch (IOException e) {
+            e.printStackTrace();
+        }
+}
+}
